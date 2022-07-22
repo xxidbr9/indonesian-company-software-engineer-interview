@@ -13,6 +13,9 @@ const area = {
   name: "DKI Jakarta",
   children: [
     {
+      name: "Jakarta Timur"
+    },
+    {
       name: "Jakarta Selatan"
     },
     {
@@ -25,31 +28,34 @@ const area = {
           name: "Gambir"
         },
         {
+          name: "Tanah Abang"
+        },
+        {
           name: "Johar Baru"
         },
         {
           name: "Kemayoran",
           children: [
             {
-              name: "Cempaka Baru"
-            },
-            {
               name: "Gunung Sahari Selatan"
-            },
-            {
-              name: "Harapan Mulya"
-            },
-            {
-              name: "Kebon Kosong"
             },
             {
               name: "Kemayoran"
             },
             {
-              name: "Serdang"
+              name: "Harapan Mulya"
+            },
+            {
+              name: "Cempaka Baru"
+            },
+            {
+              name: "Kebon Kosong"
             },
             {
               name: "Sumur Batu"
+            },
+            {
+              name: "Serdang"
             },
             {
               name: "Utan Panjang"
@@ -57,21 +63,15 @@ const area = {
           ]
         },
         {
+          name: "Senen"
+        },
+        {
           name: "Menteng"
         },
         {
           name: "Sawah Besar"
-        },
-        {
-          name: "Senen"
-        },
-        {
-          name: "Tanah Abang"
         }
       ]
-    },
-    {
-      name: "Jakarta Timur"
     },
     {
       name: "Jakarta Barat"
@@ -176,10 +176,10 @@ Test Files  1 passed (1)
       Time  462ms (in thread 2ms, 23104.53%)
 
 ----------|---------|----------|---------|---------|-------------------
-File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 ----------|---------|----------|---------|---------|-------------------
-All files |     100 |      100 |     100 |     100 |                   
- index.ts |     100 |      100 |     100 |     100 |                   
+All files |     100 |      100 |     100 |     100 |
+ index.ts |     100 |      100 |     100 |     100 |
 ----------|---------|----------|---------|---------|-------------------
 ✨  Done
 ```

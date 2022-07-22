@@ -2,6 +2,9 @@ const area = {
   name: "DKI Jakarta",
   children: [
     {
+      name: "Jakarta Timur"
+    },
+    {
       name: "Jakarta Selatan"
     },
     {
@@ -14,31 +17,34 @@ const area = {
           name: "Gambir"
         },
         {
+          name: "Tanah Abang"
+        },
+        {
           name: "Johar Baru"
         },
         {
           name: "Kemayoran",
           children: [
             {
-              name: "Cempaka Baru"
-            },
-            {
               name: "Gunung Sahari Selatan"
-            },
-            {
-              name: "Harapan Mulya"
-            },
-            {
-              name: "Kebon Kosong"
             },
             {
               name: "Kemayoran"
             },
             {
-              name: "Serdang"
+              name: "Harapan Mulya"
+            },
+            {
+              name: "Cempaka Baru"
+            },
+            {
+              name: "Kebon Kosong"
             },
             {
               name: "Sumur Batu"
+            },
+            {
+              name: "Serdang"
             },
             {
               name: "Utan Panjang"
@@ -46,21 +52,15 @@ const area = {
           ]
         },
         {
+          name: "Senen"
+        },
+        {
           name: "Menteng"
         },
         {
           name: "Sawah Besar"
-        },
-        {
-          name: "Senen"
-        },
-        {
-          name: "Tanah Abang"
         }
       ]
-    },
-    {
-      name: "Jakarta Timur"
     },
     {
       name: "Jakarta Barat"
@@ -77,4 +77,3 @@ export const sorter = args => {
   }
   return args
 };
-

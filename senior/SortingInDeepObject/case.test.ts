@@ -4,6 +4,9 @@ const TEST_CASE = {
   name: "DKI Jakarta",
   children: [
     {
+      name: "Jakarta Timur"
+    },
+    {
       name: "Jakarta Selatan"
     },
     {
@@ -16,31 +19,34 @@ const TEST_CASE = {
           name: "Gambir"
         },
         {
+          name: "Tanah Abang"
+        },
+        {
           name: "Johar Baru"
         },
         {
           name: "Kemayoran",
           children: [
             {
-              name: "Cempaka Baru"
-            },
-            {
               name: "Gunung Sahari Selatan"
-            },
-            {
-              name: "Harapan Mulya"
-            },
-            {
-              name: "Kebon Kosong"
             },
             {
               name: "Kemayoran"
             },
             {
-              name: "Serdang"
+              name: "Harapan Mulya"
+            },
+            {
+              name: "Cempaka Baru"
+            },
+            {
+              name: "Kebon Kosong"
             },
             {
               name: "Sumur Batu"
+            },
+            {
+              name: "Serdang"
             },
             {
               name: "Utan Panjang"
@@ -48,21 +54,15 @@ const TEST_CASE = {
           ]
         },
         {
+          name: "Senen"
+        },
+        {
           name: "Menteng"
         },
         {
           name: "Sawah Besar"
-        },
-        {
-          name: "Senen"
-        },
-        {
-          name: "Tanah Abang"
         }
       ]
-    },
-    {
-      name: "Jakarta Timur"
     },
     {
       name: "Jakarta Barat"
@@ -89,31 +89,34 @@ const EXPECTED_RESULT = {
           "name": "Gambir"
         },
         {
+          "name": "Tanah Abang"
+        },
+        {
           "name": "Johar Baru"
         },
         {
           "name": "Kemayoran",
           "children": [
             {
-              "name": "Cempaka Baru"
-            },
-            {
               "name": "Gunung Sahari Selatan"
-            },
-            {
-              "name": "Harapan Mulya"
-            },
-            {
-              "name": "Kebon Kosong"
             },
             {
               "name": "Kemayoran"
             },
             {
-              "name": "Serdang"
+              "name": "Harapan Mulya"
+            },
+            {
+              "name": "Cempaka Baru"
+            },
+            {
+              "name": "Kebon Kosong"
             },
             {
               "name": "Sumur Batu"
+            },
+            {
+              "name": "Serdang"
             },
             {
               "name": "Utan Panjang"
@@ -121,16 +124,13 @@ const EXPECTED_RESULT = {
           ]
         },
         {
+          "name": "Senen"
+        },
+        {
           "name": "Menteng"
         },
         {
           "name": "Sawah Besar"
-        },
-        {
-          "name": "Senen"
-        },
-        {
-          "name": "Tanah Abang"
         }
       ]
     },
