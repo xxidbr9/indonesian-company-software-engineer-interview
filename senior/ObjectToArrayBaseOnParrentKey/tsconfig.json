@@ -1,6 +1,0 @@
-{
-  "compilerOptions": {
-    "lib": ["ES2017", "DOM"],
-    "types": ["vitest/globals"]
-  }
-}
