@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "start": "ts-node index.ts",
+        "test": "vitest --config ./vitest.config.ts --run",
+        "test:coverage": "yarn test --coverage"
+    },
+    "devDependencies": {
+        "c8": "^7.11.2",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.4",
+        "vitest": "^0.10.0"
+    }
+}
