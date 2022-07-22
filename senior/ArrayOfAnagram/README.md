@@ -30,6 +30,9 @@ Below is an array containing a series of sample Strings:
 ['kita', 'atik', 'tika', 'aku', 'kia', 'makan', 'kua'] Please group / group the words in it according to the Anagram group.
 Note: do not use es6 map, sort, reduce, find, filter syntax.
 
+
+This job is offer by one of the most used POS platform in indonesia
+
 ### ROLE
 
 > LEAD FRONTEND ENGINEER
