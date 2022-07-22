@@ -106,7 +106,10 @@ console.log(
 
 ### Explanation
 
-this is live code question on one of biggest e-commerce in Indonesia, this is for "Senior Frontend Engineer Roles", and need to finished with in 30 minutes countdown and coding without syntax highlight and auto completion.
+this is live code question on one of biggest e-commerce in Indonesia, and need to finished with in 30 minutes countdown and coding without syntax highlight and auto completion.
+
+### ROLE
+> Senior Frontend Engineer
 
 ### TEST
 

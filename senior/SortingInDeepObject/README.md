@@ -161,7 +161,10 @@ console.log(sorter(area));
 
 ### Explanation
 
-this is live code question on one of the biggest e-commerce in Indonesia, this is for "Senior Frontend Engineer Roles", and need to finished with in 30 minutes countdown and coding without syntax highlight and auto completion in [https://codeshare.io](https://codeshare.io).
+this is live code question on one of the biggest e-commerce in Indonesia, and need to finished with in 30 minutes countdown and coding without syntax highlight and auto completion in [https://codeshare.io](https://codeshare.io).
+
+### ROLE
+> Senior Frontend Engineer
 
 ### TEST
 
