@@ -6,8 +6,6 @@
 I've been frustrated about the interview process, especially the live code.
 im a type of idiotic person that loses all memory when being interviewed, that's why I truly hate it. this is the reason why I start this project, to share all my experience as a job seeker.
 
-~ [nando](https://github.com/xxidbr9)
-
 - [Junior](./junior)
 - [Middle](./middle)
 - [Senior](./senior)
