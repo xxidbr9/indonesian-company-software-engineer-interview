@@ -168,10 +168,12 @@ this is live code question on one of the biggest e-commerce in Indonesia, this i
 ```bash
 
  √ case.test.ts (1)
+   √ Test index.ts file  (1)
+     √ Check is same as expected
 
 Test Files  1 passed (1)
      Tests  1 passed (1)
-      Time  431ms (in thread 2ms, 21548.55%)
+      Time  462ms (in thread 2ms, 23104.53%)
 
 ----------|---------|----------|---------|---------|-------------------
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
@@ -179,5 +181,5 @@ File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 All files |     100 |      100 |     100 |     100 |                   
  index.ts |     100 |      100 |     100 |     100 |                   
 ----------|---------|----------|---------|---------|-------------------
-✨  Done in 1.64s.
+✨  Done
 ```
