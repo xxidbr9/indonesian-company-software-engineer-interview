@@ -1,12 +1,12 @@
 # In Deep Change Object Key's to camelCase
 
-### Question 
+### Question
+
 ```js
 const camelCase = arg => {
   // write your logic
 };
 ```
-
 
 ```ts
 // CASE 1
@@ -104,6 +104,24 @@ console.log(
 */
 ```
 
+### Explanation
 
-### Explanation 
-this is live code question on one of biggest e-commerce in Indonesia, this is for "Senior Frontend Engineer Roles", and need to finished with in 30 minutes countdown and coding without syntax highlight and auto completion. 
+this is live code question on one of biggest e-commerce in Indonesia, this is for "Senior Frontend Engineer Roles", and need to finished with in 30 minutes countdown and coding without syntax highlight and auto completion.
+
+### TEST
+
+```bash
+ √ case.test.ts (3)
+
+Test Files  1 passed (1)
+     Tests  3 passed (3)
+      Time  515ms (in thread 2ms, 25732.66%)
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |
+ index.ts |     100 |      100 |     100 |     100 |
+----------|---------|----------|---------|---------|-------------------
+✨  Done in 4.07s.
+```
