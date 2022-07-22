@@ -2,7 +2,7 @@
     "scripts": {
         "start": "ts-node index.ts",
         "test": "vitest --config ./vitest.config.ts --run",
-        "test:coverage": "yarn test --coverage"
+        "test:coverage": "yarn test --coverage --reporter verbose"
     },
     "devDependencies": {
         "c8": "^7.11.2",

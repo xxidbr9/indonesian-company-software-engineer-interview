@@ -112,16 +112,20 @@ this is live code question on one of biggest e-commerce in Indonesia, this is fo
 
 ```bash
  √ case.test.ts (3)
+   √ Test index.ts file (3)
+     √ Check if work on one object key
+     √ Check if work on array
+     √ Check if work on deep object
 
 Test Files  1 passed (1)
      Tests  3 passed (3)
-      Time  515ms (in thread 2ms, 25732.66%)
+      Time  474ms (in thread 2ms, 23686.14%)
 
 ----------|---------|----------|---------|---------|-------------------
-File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------|---------|----------|---------|---------|-------------------
-All files |     100 |      100 |     100 |     100 |
- index.ts |     100 |      100 |     100 |     100 |
+All files |     100 |      100 |     100 |     100 |                   
+ index.ts |     100 |      100 |     100 |     100 |                   
 ----------|---------|----------|---------|---------|-------------------
-✨  Done in 4.07s.
+✨  Done
 ```
