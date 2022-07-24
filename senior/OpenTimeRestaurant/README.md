@@ -26,7 +26,7 @@ console.log(parser("Mon-Sun 11 am - 10:30 pm"));
 
 ### Explanation
 
-this is on one of the most used job finder platform in Indonesia, and this project need to finished with in 3 days and it include take Home Project including other features, but main feature is convert list of time restaurant open to be stored in SQL database
+this position is offer by on one of the most used job finder platform in Indonesia, and this project need to finished with in 3 days and it include take Home Project including other features, but main feature is convert list of time restaurant open to be stored in SQL database, see [CSV file](./hours.csv)
 
 ### ROLE
 
