@@ -19,7 +19,7 @@ console.log(getSecondLargest(list));
 
 ### Explanation
 
-Find second largest number in a row, but keep in mind, never "SORT" the array, if you sort it, it will be O^n, keep it on one loop shoot or O^1
+Find second largest number in a row, this kind of question always shown up in junior to middle level engineer, but keep in mind, never "SORT" the array, if you sort it, it will be O^n, keep it on one loop shoot or O^1
 
 ### ROLE
 
