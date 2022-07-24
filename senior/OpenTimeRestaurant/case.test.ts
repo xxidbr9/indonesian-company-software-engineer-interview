@@ -24,12 +24,12 @@ const EXPECTED_TEST_2 = [
   { day: 3, openTime: '11:00 AM', closeTime: '10:30 PM' },
   { day: 4, openTime: '11:00 AM', closeTime: '10:30 PM' },
   { day: 5, openTime: '11:00 AM', closeTime: '10:30 PM' },
-  { day: 6, openTime: '11:00 AM', closeTime: '10:30 PM' },
   { day: 6, openTime: '11:00 AM', closeTime: '10:30 PM' }
 ]
 
-const TEST_CASE_3 = "Sun = Mon 11 am - 10:30 pm";
+const TEST_CASE_3 = "Sat - Mon 11 am - 10:30 pm";
 const EXPECTED_TEST_3 = [
+  { day: 5, openTime: '11:00 AM', closeTime: '10:30 PM' },
   { day: 6, openTime: '11:00 AM', closeTime: '10:30 PM' },
   { day: 0, openTime: '11:00 AM', closeTime: '10:30 PM' }
 ]
@@ -81,6 +81,7 @@ describe("Transform string (TIME) to object", () => {
 
   test("Detect can be use in range (Weekend first)", () => {
     const result = parser(TEST_CASE_3);
+    console.log(result.map((time) => ({ ...time, closeTime: parseTo12Hour(time.closeTime), openTime: parseTo12Hour(time.openTime) })))
     const finalResult = result.map((time) => ({ ...time, closeTime: parseTo12Hour(time.closeTime), openTime: parseTo12Hour(time.openTime) }))
 
     expect(finalResult).toEqual(EXPECTED_TEST_3);

@@ -139,7 +139,11 @@ const parseDay = (token: string) => {
     days.push({ ...openTimes[i], ...closeTimes[i] } as DayToDay);
   });
 
-  return days;
+  // for filter day
+  const seen = {};
+  return days.filter((item) => {
+    return seen.hasOwnProperty(item.day) ? false : (seen[item.day] = true);
+  });
 };
 
 export default parseDay
