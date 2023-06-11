@@ -1,4 +1,4 @@
-# Event Driven
+# Word Count
 
 ### Question
 
@@ -12,7 +12,7 @@ The function will receive 2 parameters:
 text: a string representing the word to be repeated, where the length of text <= 100.
 total: an integer representing the specified length of the word, where 1 <= total <= 10^12.
 Example Input:
-pabrik("BLIBLI", 14)
+factory("BLIBLI", 14)
 
 Output:
 5
