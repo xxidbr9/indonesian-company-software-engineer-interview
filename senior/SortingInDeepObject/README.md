@@ -102,6 +102,7 @@ console.log(sorter(area));
         {
           "name": "Johar Baru"
         },
+
         {
           "name": "Kemayoran",
           "children": [
@@ -142,7 +143,7 @@ console.log(sorter(area));
         },
         {
           "name": "Tanah Abang"
-        }
+        },
       ]
     },
     {

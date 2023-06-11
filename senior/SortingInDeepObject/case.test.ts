@@ -89,34 +89,32 @@ const EXPECTED_RESULT = {
           "name": "Gambir"
         },
         {
-          "name": "Tanah Abang"
-        },
-        {
           "name": "Johar Baru"
         },
+
         {
           "name": "Kemayoran",
           "children": [
             {
-              "name": "Gunung Sahari Selatan"
+              "name": "Cempaka Baru"
             },
             {
-              "name": "Kemayoran"
+              "name": "Gunung Sahari Selatan"
             },
             {
               "name": "Harapan Mulya"
             },
             {
-              "name": "Cempaka Baru"
-            },
-            {
               "name": "Kebon Kosong"
             },
             {
-              "name": "Sumur Batu"
+              "name": "Kemayoran"
             },
             {
               "name": "Serdang"
+            },
+            {
+              "name": "Sumur Batu"
             },
             {
               "name": "Utan Panjang"
@@ -124,14 +122,17 @@ const EXPECTED_RESULT = {
           ]
         },
         {
-          "name": "Senen"
-        },
-        {
           "name": "Menteng"
         },
         {
           "name": "Sawah Besar"
-        }
+        },
+        {
+          "name": "Senen"
+        },
+        {
+          "name": "Tanah Abang"
+        },
       ]
     },
     {

@@ -72,8 +72,9 @@ const area = {
 };
 
 export const sorter = args => {
-  if (!!args.children && !!args.children.length) {
-    args.children.sort((a, b) => a.name < b.name ? -1 : 1)
+  if (!!args.children && Array.isArray(args.children)) {
+    args.children.sort((a, b) => a.name.localeCompare(b.name));
+    args.children.forEach((child) => sorter(child));
   }
   return args
 };
