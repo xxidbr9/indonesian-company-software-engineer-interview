@@ -9,3 +9,4 @@ Senior in indonesia or even in Asian mean a person within 4-10 years experience,
 - [Array Of Anagram](./ArrayOfAnagram/)
 - [Restaurant Open Time](./OpenTimeRestaurant/)
 - [Event Driven](./EventDriven/)
+- [Word Count](./WordCount/)
